@@ -559,7 +559,7 @@ window.addEventListener('load', () => {
         div.classList.add('m-2');
         div.innerHTML = `
         <p class="mt-4 mb-0 mx-0 p-0">Kepada Yth <br> Bapak/Ibu/Saudara/i</p>
-        <h2>${escapeHtml(name)}</h2>
+        <h4><b>${escapeHtml(name)}</b></h4>
         `;
 
         document.getElementById('formnama').value = name;
